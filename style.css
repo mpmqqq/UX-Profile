@@ -1,0 +1,221 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100vh;
+    margin-bottom: 200px;
+}
+
+.container {
+    height: 100%;
+    margin: auto 250px;
+}
+
+
+@font-face{
+    font-family: "Montserrat-Light";
+    src: url("fonts/montserrat/Montserrat-Light.otf");
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url("fonts/montserrat/Montserrat-Medium.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url("fonts/montserrat/Montserrat-Regular.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Montserrat-SemiBold";
+    src: url("fonts/montserrat/MontserratAlternates-SemiBold.otf");
+    font-weight: bold;
+}
+
+
+
+@font-face{
+    font-family: "GenBasR";
+    src: url("fonts/Gentium_Basic/GenBasR.ttf");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "GenBasI";
+    src: url("fonts/Gentium_Basic/GenBasI.ttf");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "GenBasR";
+    src: url("fonts/Gentium_Basic/GenBasR.ttf");
+    font-weight: normal;
+}
+
+
+
+.nav {
+    margin-top: 30px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: block;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    color: #2A2A2A;
+    white-space: nowrap;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
+
+.header-item {
+    margin: 10px 0;
+}
+
+
+/*header*/
+.section-header {
+    height: 65px;
+    width: 100vw;
+}
+
+.nav__list {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__link {
+    width: 280px;
+}
+
+.nav__link-header {
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    font-size: 24px;
+    color: #2A2A2A;
+    white-space: nowrap;
+}
+
+.nav__header-item {
+    margin: 0;
+}
+
+/*content*/
+.section-content__container {
+    display: flex;
+}
+
+.section-content__content {
+    flex-basis: 70%;
+}
+
+.section-content__nav {
+    flex-basis: 30%;
+    margin-left: 30px;
+}
+
+.section-content__image {
+    background-image: url(maria-pavlenko.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 424px;
+    background-position: 50%;
+}
+
+.menu__link-header {
+    margin: 0 0 10px;
+}
+
+.menu__item-link {
+    margin: 5px 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #AAAAAA;
+}
+
+.menu__link:hover {
+    color: #2A2A2A;
+}
+
+.section-content__link-header{
+    font-weight: bold;
+}
+
+.section-content__text {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3E3E3E;
+    margin-top: 5px;
+}
+
+.section-content__block {
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #2A2A2A;
+}
+
+.link:hover {
+    color: #3F80FF;
+}
+
+.section-content__list-item {
+    margin-top: 5px;
+}
+
+.link-underline {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #AAAAAA;
+    text-decoration: underline;
+}
+
+.link-underline:hover {
+    color: #3F80FF;
+}
+
+.section-content__text-item {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.section-content__text-item--bold {
+    font-family: Montserrat-Medium;
+}
+
+.td__text-item {
+    vertical-align: top;
+}
+
+
+
+
+
