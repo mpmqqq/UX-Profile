@@ -133,7 +133,7 @@ html, body {
 }
 
 .section-content__image {
-    background-image: url(maria-pavlenko.png);
+    background-image: url(fonts/maria-pavlenko.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 424px;
@@ -190,6 +190,12 @@ html, body {
     margin-top: 5px;
 }
 
+.section-content__work {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
 .link-underline {
     font-family: Montserrat-Regular;
     font-size: 14px;
@@ -211,10 +217,13 @@ html, body {
     font-family: Montserrat-Medium;
 }
 
-.td__text-item {
-    vertical-align: top;
+.section-content__work-item {
+    margin-left: 10px;
 }
 
+.section-content__text-item--extra {
+    margin-top: 5px;
+}
 
 
 
