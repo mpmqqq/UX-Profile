@@ -3,18 +3,15 @@ html, body {
     padding: 0;
     background-color: #F8F8F8;
 }
-
 .wrapper {
     overflow: hidden;
     min-height: 100vh;
     margin-bottom: 200px;
 }
-
 .container {
     height: 100%;
-    margin: auto 250px;
+    margin: auto 200px;
 }
-
 
 @font-face{
     font-family: "Montserrat-Light";
@@ -36,21 +33,16 @@ html, body {
     src: url("fonts/montserrat/MontserratAlternates-SemiBold.otf");
     font-weight: bold;
 }
-
-
-
 @font-face{
     font-family: "GenBasR";
     src: url("fonts/Gentium_Basic/GenBasR.ttf");
     font-weight: normal;
 }
-
 @font-face{
     font-family: "GenBasI";
     src: url("fonts/Gentium_Basic/GenBasI.ttf");
     font-weight: normal;
 }
-
 @font-face{
     font-family: "GenBasR";
     src: url("fonts/Gentium_Basic/GenBasR.ttf");
@@ -58,17 +50,14 @@ html, body {
 }
 
 
-
 .nav {
     margin-top: 30px;
 }
-
 .list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 .header {
     display: block;
     text-decoration: none;
@@ -77,16 +66,13 @@ html, body {
     color: #2A2A2A;
     white-space: nowrap;
 }
-
 .line {
     border-top: 1px solid #ccc;
     margin: 0;
 }
-
 .header-item {
     margin: 10px 0;
 }
-
 
 /*header*/
 .section-header {
@@ -103,7 +89,7 @@ html, body {
 }
 
 .nav__link {
-    width: 280px;
+    width: 305px;
 }
 
 .nav__link-header {
@@ -122,16 +108,13 @@ html, body {
 .section-content__container {
     display: flex;
 }
-
 .section-content__content {
     flex-basis: 70%;
 }
-
 .section-content__nav {
     flex-basis: 30%;
     margin-left: 30px;
 }
-
 .section-content__image {
     background-image: url(fonts/maria-pavlenko.png);
     background-size: cover;
@@ -139,30 +122,24 @@ html, body {
     height: 424px;
     background-position: 50%;
 }
-
 .menu__link-header {
     margin: 0 0 10px;
 }
-
 .menu__item-link {
     margin: 5px 0;
 }
-
 .menu__link {
     text-decoration: none;
     font-family: Montserrat-Regular;
     font-size: 12px;
     color: #AAAAAA;
 }
-
 .menu__link:hover {
     color: #2A2A2A;
 }
-
 .section-content__link-header{
     font-weight: bold;
 }
-
 .section-content__text {
     font-family: Montserrat-Regular;
     font-size: 18px;
@@ -170,61 +147,99 @@ html, body {
     color: #3E3E3E;
     margin-top: 5px;
 }
-
 .section-content__block {
     margin-top: 20px;
 }
-
 .link {
     text-decoration: none;
     font-family: Montserrat-Regular;
     font-size: 12px;
     color: #2A2A2A;
 }
-
 .link:hover {
     color: #3F80FF;
 }
-
 .section-content__list-item {
     margin-top: 5px;
 }
-
 .section-content__work {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
-
 .link-underline {
     font-family: Montserrat-Regular;
     font-size: 14px;
     color: #AAAAAA;
     text-decoration: underline;
 }
-
 .link-underline:hover {
     color: #3F80FF;
 }
-
 .section-content__text-item {
     font-family: Montserrat-Regular;
     font-size: 14px;
     color: #2A2A2A;
 }
-
 .section-content__text-item--bold {
     font-family: Montserrat-Medium;
 }
-
 .section-content__work-item {
     margin-left: 10px;
 }
-
 .section-content__text-item--extra {
     margin-top: 5px;
 }
 
 
+@media (max-width: 1300px) {
+    .container {
+        margin: auto 100px;
+    }
 
-
+    nav__link {
+        width: 260px;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        margin: auto 80px;
+    }
+    nav__link {
+        width: 230px;
+    }
+}
+@media (max-width: 768px)  {
+    .container {
+        margin: auto 50px;
+    }
+    .section-content__container {
+        flex-direction: column;
+    }
+    .section-content__content {
+        flex-basis: initial;
+    }
+    .section-content__nav {
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-basis: initial;
+        margin-left: initial;
+    }
+    .menu__list {
+        width: 30%;
+    }
+    .section-content__text-item {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 480px)  {
+    .section-content__nav {
+        flex-direction: column;
+    }
+    .menu__list {
+        width: 50%;
+        margin-bottom: 5%;
+    }
+}
