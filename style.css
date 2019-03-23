@@ -208,6 +208,9 @@ html, body {
     nav__link {
         width: 230px;
     }
+    .section-content__image {
+        height: 380px;
+    }
 }
 @media (max-width: 768px)  {
     .container {
@@ -233,7 +236,11 @@ html, body {
     .section-content__text-item {
         flex-wrap: wrap;
     }
+    .section-content__image {
+        height: 300px;
+    }
 }
+
 @media (max-width: 480px)  {
     .section-content__nav {
         flex-direction: column;
