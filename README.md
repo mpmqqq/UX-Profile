@@ -1,7 +1,7 @@
 # Project: Personal Portfolio Page
 
 This page I collected everything I did when I worked as a User Experience Researcher.<br> 
-[Here](https://https://mpmqqq.github.io/UX-Profile/) you can see my experience, information about my projects, briefly about my professional biography as a User Experience Researcher.
+[Here](https://mpmqqq.github.io/UX-Profile/) you can see my experience, information about my projects, briefly about my professional biography as a User Experience Researcher.
 
 ## Getting Started
 
